@@ -61,7 +61,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 mark {
   color: #000;
@@ -3743,6 +3743,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   line-height: 20px;
 }
+
+a.navbar-brand {
+  font-size :2em !important;
+}
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -5177,6 +5181,9 @@ button.close {
   margin-left: 0;
 }
 @media (min-width: 768px) {
+  a.navbar-brand {
+    font-size :1.5em;
+  }
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
